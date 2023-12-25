@@ -10,13 +10,14 @@ bgImageStyle:
 heroText: 戴森球计划 MOD WIKI
 tagline: 蓝图,扩展,MOD,还有更多...
 actions:
-  - text: 使用指南
-    icon: lightbulb
-    link: ./demo/
+  - text: 查看wiki
+    icon: list
+    link: ./wikiPage/
     type: primary
 
-  - text: 文档
-    link: ./guide/
+  - text: 使用指南
+    icon: lightbulb
+    link: ./writeGuide/
 
 highlights:
   - header: 易于安装
