@@ -2,7 +2,8 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
+  "/wikiPage/",
+  "/writeGuide/",
   {
     text: "指南",
     icon: "lightbulb",

@@ -4,10 +4,17 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "案例",
+      text: "WIKI",
+      icon: "list",
+      prefix: "wikiPage/",
+      link: "wikiPage/",
+      children: "structure",
+    },
+    {
+      text: "编写指南",
       icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      prefix: "writeGuide/",
+      link: "writeGuide/",
       children: "structure",
     },
     {
