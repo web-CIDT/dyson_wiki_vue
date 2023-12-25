@@ -14,9 +14,8 @@ export default hopeTheme({
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "Gzh0821/dyson_wiki_vue",
 
-  repoDisplay: false,
 
   docsDir: "src",
 
