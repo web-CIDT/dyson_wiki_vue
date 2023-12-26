@@ -7,7 +7,7 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "戴森球计划 MOD WIKI",
-  description: "戴森球计划MOD WIKI示",
+  description: "戴森球计划MOD WIKI",
 
   plugins: [
     searchProPlugin({

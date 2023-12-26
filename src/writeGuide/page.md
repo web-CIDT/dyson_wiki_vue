@@ -84,9 +84,15 @@ title: 页面标题
 
 <MyComponent />
 
+
+输入: <input v-model="msg"/>
+
+
+{{ msg }}
+
 <script setup>
 import { defineComponent, h, ref } from 'vue';
-
+const msg = ref('');
 const MyComponent = defineComponent({
   setup() {
     const input = ref('Hello world!');

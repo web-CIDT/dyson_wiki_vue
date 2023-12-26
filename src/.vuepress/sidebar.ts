@@ -4,7 +4,7 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "WIKI",
+      text: "教程合集",
       icon: "list",
       prefix: "wikiPage/",
       link: "wikiPage/",

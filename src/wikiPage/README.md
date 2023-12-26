@@ -1,9 +1,8 @@
 ---
-title: WIKI
+title: 教程合集
 index: false
 icon: list
 ---
-
-WIKI首页
+一些游戏教程的合集
 
 <AutoCatalog />
