@@ -1,1 +1,0 @@
-import{_ as o}from"./plugin-vue_export-helper-x3n3nnut.js";import{r as t,o as n,c as a,d as r,a as c}from"./app-RIzjwzp4.js";const s={},_=c("p",null,"这里包含一些使用Markdown扩展语法和Front Matter编写wiki的指南.",-1);function l(d,i){const e=t("AutoCatalog");return n(),a("div",null,[_,r(e)])}const p=o(s,[["render",l],["__file","index.html.vue"]]);export{p as default};
