@@ -3,7 +3,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://wiki.dspgame.com",
 
   author: {
     name: "LMYY",
@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "Gzh0821/dyson_wiki_vue",
+  repo: "web-CIDT/dyson_wiki_vue",
 
 
   docsDir: "src",
