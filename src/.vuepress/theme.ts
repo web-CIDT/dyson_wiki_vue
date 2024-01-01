@@ -25,7 +25,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "Copyright 2021-2023 Gaozih © All Rights Reserved.",
+  footer: "Copyright 2021-2024 Gaozih © All Rights Reserved.",
 
   displayFooter: true,
 
