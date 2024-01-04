@@ -10,9 +10,11 @@ export default hopeTheme({
     url: "https://gaozih.com",
   },
 
+  favicon: "public/cidt.ico",
+  
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "public/logo.png",
 
   repo: "web-CIDT/dyson_wiki_vue",
 

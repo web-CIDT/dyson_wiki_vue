@@ -1,41 +1,41 @@
 // place your custom styles here
 :root {
-	// --global-fill-color: #1e1e1e;
-	// --global-fill-color-light: #575757;
-	// --global-bg-color-bright: #e4e4e4;
-	// --global-bg-color-dark: #d1d1d1;
-	// --global-bg-hover-color: #575757;
-	// --global-op-bg-bright: #e4e4e400;
-	// --global-op-bg-dark: #d1d1d100;
-	// --black: #000000;
-	// --light-black: #1e1e1e;
-	// --light-gray: #c8c8c8;
-	// --white: #eeeeee;
-	// --bright-white: #ffffff;
-	// --light-blue: #84aed3;
-	// --blue: #5ba4e5;
-	// --pink: #f29cb1;
-	// --red: #a41818;
-	// --orange: #f3a602;
-	// --bilibili: #00AEEC;
-	// --cloud-music: #C10D0C;
-	// --QQ: #12B7F5;
-	// --email: #8E71C1;
-	// --topbar-color: 62, 97, 128;
-	// --topbar-shadow: 30, 30, 30;
-	// --box-shadow: #1e1e1e80;
-	// --box-shadow-hover: #323232b3;
-	// --text-shadow-color: #0000004d;
-	// --bg-brightness: brightness(50%);
-	// --bg-contrast: contrast(100%);
-	// --card-brightness: brightness(80%);
-	// --global-grayscale: grayscale(0%);
-	// --global-brightness: brightness(100%);
-	--auto-cur: url(../public/assets/cursor/cursor.png);
-	--pointer-cur: url(../public/assets/cursor/cursor-pointer.png);
-	// --bg-image: url(../img/background.webp)
+    // --global-fill-color: #1e1e1e;
+    // --global-fill-color-light: #575757;
+    // --global-bg-color-bright: #e4e4e4;
+    // --global-bg-color-dark: #d1d1d1;
+    // --global-bg-hover-color: #575757;
+    // --global-op-bg-bright: #e4e4e400;
+    // --global-op-bg-dark: #d1d1d100;
+    // --black: #000000;
+    // --light-black: #1e1e1e;
+    // --light-gray: #c8c8c8;
+    // --white: #eeeeee;
+    // --bright-white: #ffffff;
+    // --light-blue: #84aed3;
+    // --blue: #5ba4e5;
+    // --pink: #f29cb1;
+    // --red: #a41818;
+    // --orange: #f3a602;
+    // --bilibili: #00AEEC;
+    // --cloud-music: #C10D0C;
+    // --QQ: #12B7F5;
+    // --email: #8E71C1;
+    // --topbar-color: 62, 97, 128;
+    // --topbar-shadow: 30, 30, 30;
+    // --box-shadow: #1e1e1e80;
+    // --box-shadow-hover: #323232b3;
+    // --text-shadow-color: #0000004d;
+    // --bg-brightness: brightness(50%);
+    // --bg-contrast: contrast(100%);
+    // --card-brightness: brightness(80%);
+    // --global-grayscale: grayscale(0%);
+    // --global-brightness: brightness(100%);
+    --auto-cur: url(../public/assets/cursor/cursor.png);
+    --pointer-cur: url(../public/assets/cursor/cursor-pointer.png);
+    // --bg-image: url(../img/background.webp)
 }
 
-body{
-    cursor: var(--auto-cur);
+body {
+    cursor: var(--auto-cur), auto;
 }
