@@ -31,11 +31,12 @@
     // --card-brightness: brightness(80%);
     // --global-grayscale: grayscale(0%);
     // --global-brightness: brightness(100%);
-    --auto-cur: url(../public/assets/cursor/cursor.png);
-    --pointer-cur: url(../public/assets/cursor/cursor-pointer.png);
-    // --bg-image: url(../img/background.webp)
+    // --bg-image: url(../img/background.webp);
+
+    // --auto-cur: url(../public/assets/cursor/cursor.png);
+    // --pointer-cur: url(../public/assets/cursor/cursor-pointer.png);
 }
 
 body {
-    cursor: var(--auto-cur), auto;
+    cursor: auto;
 }
