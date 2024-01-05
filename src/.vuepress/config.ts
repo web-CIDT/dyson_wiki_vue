@@ -9,6 +9,10 @@ export default defineUserConfig({
   title: "戴森球计划 MOD WIKI",
   description: "戴森球计划MOD WIKI",
 
+  head: [
+    ["script",{src:"/scripts/add.js"}],
+  ],
+
   plugins: [
     searchProPlugin({
       // 索引全部内容

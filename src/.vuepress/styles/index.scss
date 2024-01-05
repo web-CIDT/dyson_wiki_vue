@@ -33,10 +33,31 @@
     // --global-brightness: brightness(100%);
     // --bg-image: url(../img/background.webp);
 
-    // --auto-cur: url(../public/assets/cursor/cursor.png);
-    // --pointer-cur: url(../public/assets/cursor/cursor-pointer.png);
+    --auto-cur: url(/cursor/cursor.png);
+    --pointer-cur: url(/cursor/cursor-pointer.png);
 }
 
-body {
-    cursor: auto;
+.theme-container {
+    cursor: var(--auto-cur), auto;
+}
+
+.theme-container a {
+    cursor: var(--pointer-cur), pointer;
+}
+
+.dropdown-wrapper {
+    cursor: var(--pointer-cur), pointer;
+}
+
+.vp-navbar {
+    background: none;
+    backdrop-filter: blur(0);
+}
+
+.vp-project-home {
+    padding-top: 0;
+}
+
+.vp-hero-info-wrapper {
+    min-height: 100vh;
 }
