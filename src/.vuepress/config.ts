@@ -5,9 +5,22 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/",
 
-  lang: "zh-CN",
-  title: "戴森球计划 MOD WIKI",
-  description: "戴森球计划MOD WIKI",
+  // lang: "zh-CN",
+  // title: "戴森球计划 MOD WIKI",
+  // description: "戴森球计划MOD WIKI",
+
+  locales: {
+    "/": {
+      lang: "zh-CN",
+      title: "戴森球计划 MOD WIKI",
+      description: "戴森球计划MOD WIKI",
+    },
+    "/en/": {
+      lang: "en-US",
+      title: "Dyson Sphere Program MOD WIKI",
+      description: "Dyson Sphere Program MOD WIKI",
+    },
+  },
 
   head: [
     ["script",{src:"/scripts/add.js"}],
@@ -30,6 +43,7 @@ export default defineUserConfig({
       ],
     }),
   ],
+  
   theme,
 
   // Enable it with pwa

@@ -266,4 +266,4 @@ actions:
 #         link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
 
 # copyright: false
-# ---
+---
