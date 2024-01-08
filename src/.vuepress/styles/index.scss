@@ -55,14 +55,15 @@
 
 .vp-hero-info-wrapper {
     min-height: 100vh;
-    flex-direction: column;
 }
 
 .vp-hero-info {
-    margin: auto;
+    margin-bottom: 70px;
 }
 
 .scroll-down-wrapper {
+    position: absolute;
+    top: 90%;
     width: 320px;
     cursor: pointer;
 }
@@ -80,6 +81,22 @@
     -o-animation: scroll-down-effect 1.5s infinite;
     -ms-animation: scroll-down-effect 1.5s infinite;
     animation: scroll-down-effect 1.5s infinite;
+}
+
+@media screen and (max-width: 959px) {
+    .vp-hero-info {
+        margin-bottom: 50px;
+    }
+
+    .scroll-down-wrapper span {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .scroll-down-wrapper {
+        width: 100%;
+    }
 }
 
 @-moz-keyframes scroll-down-effect {
