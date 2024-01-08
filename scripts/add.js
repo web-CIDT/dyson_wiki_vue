@@ -63,7 +63,7 @@ scrollDownInIndex = () => {
 	}
 	let scrollDownEle = document.getElementById('scroll-down')
 	scrollDownEle.addEventListener('click', () => {
-		scrollToDest(document.querySelector('.vp-highlight-wrapper').offsetTop, 300)
+		scrollToDest(document.querySelector('.vp-feature-wrapper').offsetTop, 300)
 	})
 }
 
@@ -71,7 +71,7 @@ scrollDownInIndex = () => {
 topbarFadeChange = () => {
 	let topbar = document.getElementById('navbar')
 	let banner = document.querySelector('.vp-hero-info-wrapper')
-	let page = document.querySelector('.vp-highlight-wrapper')
+	let page = document.querySelector('.vp-feature-wrapper')
 
 	let startHeight, endHeight
 	let maxOpacity = 0.9
@@ -88,20 +88,20 @@ topbarFadeChange = () => {
 	changeTopbarTransparency = () => {
 		let scrollTop = document.documentElement.scrollTop || document.body.scrollTop
 		if (scrollTop < startHeight) {
-			topbar.style.setProperty('background-color', 'rgba(var(--topbar-color), 0)', 'important')
+			topbar.style.setProperty('background', 'rgba(var(--topbar-color), 0)', 'important')
 			topbar.style.setProperty('box-shadow', 'none')
 			topbar.style.setProperty('backdrop-filter', 'blur(0px)')
 			return
 		}
 		if (scrollTop > endHeight) {
-			topbar.style.setProperty('background-color', 'rgba(var(--topbar-color), ' + maxOpacity + ')', 'important')
+			topbar.style.setProperty('background', 'rgba(var(--topbar-color), ' + maxOpacity + ')', 'important')
 			topbar.style.setProperty('box-shadow', '0 4px 8px rgba(var(--topbar-shadow),' + maxOpacity + ')', 'important')
 			topbar.style.setProperty('backdrop-filter', 'blur(16px)')
 			return
 		}
 		let transparency = (scrollTop - startHeight) / (endHeight - startHeight) * maxOpacity
 		let transblur = (scrollTop - startHeight) / (endHeight - startHeight) * maxBlur
-		topbar.style.setProperty('background-color', 'rgba(var(--navbar-bg-color), ' + transparency + ')', 'important')
+		topbar.style.setProperty('background', 'rgba(var(--topbar-color), ' + transparency + ')', 'important')
 		topbar.style.setProperty('box-shadow', '0 4px 8px rgba(var(--topbar-shadow),' + transparency + ')', 'important')
 		if ((scrollTop - startHeight) / (endHeight - startHeight) > 0.1) {
 			topbar.style.setProperty('backdrop-filter', 'blur(' + transblur + 'px)')
