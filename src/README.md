@@ -19,58 +19,50 @@ actions:
     icon: lightbulb
     link: ./writeGuide/
 
-# highlights:
-#   - header: 易于安装
-#     image: /assets/image/box.svg
-#     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
-#     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
-#     highlights:
-#       - title: 运行 <code>pnpm create vuepress-theme-hope hope-project</code> 以创建一个新的主题项目。
-#       - title: 在已有项目根目录下运行 <code>pnpm create vuepress-theme-hope add .</code> 以在项目中添加主题。
+highlights:
+  - header: 更多功能
+    # description: 我们扩展了标准的 CommonMark 规范，为你添加了成吨功能。
+    # image: /assets/image/markdown.svg
+    # bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
+    # bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
+    # bgImageStyle:
+    #   background-repeat: repeat
+    #   background-size: initial
+    features:
+      - title: 蓝图
+        icon: clipboard-check
+        details: 各类蓝图
+        # link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check
 
-#   - header: 在 Markdown 中添加你想要的内容
-#     description: 我们扩展了标准的 CommonMark 规范，为你添加了成吨功能。
-#     image: /assets/image/markdown.svg
-#     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-#     bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
-#     bgImageStyle:
-#       background-repeat: repeat
-#       background-size: initial
-#     features:
-#       - title: 链接检查
-#         icon: clipboard-check
-#         details: 检查 Markdown 链接
-#         link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check
+      - title: Wiki
+        icon: box-archive
+        details: 内容详解
+        # link: https://theme-hope.vuejs.press/zh/guide/markdown/hint.html
 
-#       - title: 提示容器支持
-#         icon: box-archive
-#         details: 用样式装饰 Markdown 内容
-#         link: https://theme-hope.vuejs.press/zh/guide/markdown/hint.html
+      - title: 量化计算
+        icon: bell
+        details: 产线量化
+        # link: https://theme-hope.vuejs.press/zh/guide/markdown/alert.html
 
-#       - title: GFM 警告
-#         icon: bell
-#         details: GFM 风格的警告容器
-#         link: https://theme-hope.vuejs.press/zh/guide/markdown/alert.html
+      - title: 辅助工具
+        icon: table-columns
+        details: 为游戏提供辅助
+        # link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
 
-#       - title: 选项卡
-#         icon: table-columns
-#         details: 使用选项卡对相似内容进行分组
-#         link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
+      - title: mod
+        icon: code
+        details: 游戏可拓展mod
+        # link: https://theme-hope.vuejs.press/zh/guide/markdown/code-tabs.html
 
-#       - title: 代码组
-#         icon: code
-#         details: 使用选项卡对相似代码进行分组
-#         link: https://theme-hope.vuejs.press/zh/guide/markdown/code-tabs.html
+      - title: 教程
+        icon: align-center
+        details: 详细的游玩教程
+        # link: https://theme-hope.vuejs.press/zh/guide/markdown/align.html
 
-#       - title: 自定义对齐支持
-#         icon: align-center
-#         details: 让你在 Markdown 中对段落进行对齐
-#         link: https://theme-hope.vuejs.press/zh/guide/markdown/align.html
-
-#       - title: 自定义属性支持
-#         icon: code
-#         details: 让你为 Markdown 元素添加属性
-#         link: https://theme-hope.vuejs.press/zh/guide/markdown/attrs.html
+      - title: 整活
+        icon: code
+        details: 一些意想不到的创意
+        # link: https://theme-hope.vuejs.press/zh/guide/markdown/attrs.html
 
 #       - title: 上下角标支持
 #         icon: superscript
@@ -147,20 +139,20 @@ actions:
 #         details: 通过 Reveal.js 在 Markdown 中插入幻灯片
 #         link: https://theme-hope.vuejs.press/zh/guide/markdown/revealjs.html
 
-#   - header: 布局
-#     description: 一个带有完整无障碍支持的响应式布局。
+  - header: 优势
+    description: 这里吹点牛逼
 #     image: /assets/image/layout.svg
 #     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
 #     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
-#     highlights:
-#       - title: 布局增强
-#         icon: object-group
-#         details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
+    highlights:
+      - title: 随时随地
+        icon: object-group
+        details: 方便快捷
 #         link: https://theme-hope.vuejs.press/zh/guide/layout/
 
-#       - title: 深色模式
-#         icon: circle-half-stroke
-#         details: 可以自由切换浅色模式与深色模式
+      - title: 官方授权
+        icon: circle-half-stroke
+        details: 官方认证
 #         link: https://theme-hope.vuejs.press/zh/guide/interface/darkmode.html
 
 #       - title: 主题色切换
@@ -265,5 +257,5 @@ actions:
 #         details: 让你的网站更像一个 APP
 #         link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
 
-# copyright: false
+copyright: false
 ---
