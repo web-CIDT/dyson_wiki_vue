@@ -139,20 +139,20 @@ highlights:
 #         details: 通过 Reveal.js 在 Markdown 中插入幻灯片
 #         link: https://theme-hope.vuejs.press/zh/guide/markdown/revealjs.html
 
-  - header: 优势
-    description: 这里吹点牛逼
+  # - header: 优势
+  #   description: 这里吹点牛逼
 #     image: /assets/image/layout.svg
 #     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
 #     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
-    highlights:
-      - title: 随时随地
-        icon: object-group
-        details: 方便快捷
+    # highlights:
+    #   - title: 随时随地
+    #     icon: object-group
+    #     details: 方便快捷
 #         link: https://theme-hope.vuejs.press/zh/guide/layout/
 
-      - title: 官方授权
-        icon: circle-half-stroke
-        details: 官方认证
+      # - title: 官方授权
+      #   icon: circle-half-stroke
+      #   details: 官方认证
 #         link: https://theme-hope.vuejs.press/zh/guide/interface/darkmode.html
 
 #       - title: 主题色切换
