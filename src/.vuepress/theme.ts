@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
+import { enNavbar, zhNavbar } from "./navbar/index.js";
+import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://wiki.dspgame.com",
@@ -11,7 +11,7 @@ export default hopeTheme({
   },
 
   favicon: "cidt.ico",
-  
+
   iconAssets: "fontawesome-with-brands",
 
   logo: "logo.png",
@@ -21,27 +21,40 @@ export default hopeTheme({
 
   docsDir: "src",
   docsBranch: "master",
-  
-  // navbar
-  navbar,
 
-  // sidebar
-  sidebar,
+  locales: {
+    "/": {
+      // navbar
+      navbar: zhNavbar,
+      // sidebar
+      sidebar: zhSidebar,
+      // footer
+      footer: "Copyright 2021-2024 Gaozih © All Rights Reserved.",
+      // footer dispalyable
+      displayFooter: true,
 
-  footer: "Copyright 2021-2024 Gaozih © All Rights Reserved.",
-
-  displayFooter: true,
-
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
+      // page meta
+      metaLocales: {
+        editLink: "在 GitHub 上编辑此页",
+      },
     },
+    "/en/": {
+      navbar: enNavbar,
+      sidebar: enSidebar,
+      footer: "Copyright 2021-2024 Gaozih © All Rights Reserved.",
+      displayFooter: true,
+      metaLocales: {
+        editLink: "Edit this page on GitHub",
+      },
+    }
   },
 
-  // page meta
-  metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
-  },
+  // 加密
+  // encrypt: {
+  //   config: {
+  //     "/demo/encrypt.html": ["1234"],
+  //   },
+  // },
 
   plugins: {
     // You should generate and use your own comment service

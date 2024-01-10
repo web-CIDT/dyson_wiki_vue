@@ -1,13 +1,13 @@
 import { navbar } from "vuepress-theme-hope";
 
-export default navbar([
-  "/",
-  "/wikiPage/",
-  "/writeGuide/",
+export const enNavbar = navbar([
+  "/en/",
+  "/en/wikiPage/",
+  "/en/writeGuide/",
   {
-    text: "指南",
+    text: "Guide",
     icon: "lightbulb",
-    prefix: "/guide/",
+    prefix: "/en/guide/",
     children: [
       {
         text: "Bar",
@@ -23,9 +23,4 @@ export default navbar([
       },
     ],
   },
-  // {
-  //   text: "V2 文档",
-  //   icon: "book",
-  //   link: "https://theme-hope.vuejs.press/zh/",
-  // },
 ]);

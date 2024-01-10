@@ -5,10 +5,6 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/",
 
-  // lang: "zh-CN",
-  // title: "戴森球计划 MOD WIKI",
-  // description: "戴森球计划MOD WIKI",
-
   locales: {
     "/": {
       lang: "zh-CN",
@@ -43,7 +39,7 @@ export default defineUserConfig({
       ],
     }),
   ],
-  
+
   theme,
 
   // Enable it with pwa

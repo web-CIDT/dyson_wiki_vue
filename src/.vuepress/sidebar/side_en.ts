@@ -1,7 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
-export default sidebar({
-  "/": [
+export const enSidebar = sidebar({
+  "/en/": [
     "",
     {
       text: "教程合集",
@@ -23,10 +23,5 @@ export default sidebar({
       prefix: "guide/",
       children: "structure",
     },
-    // {
-    //   text: "幻灯片",
-    //   icon: "person-chalkboard",
-    //   link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
-    // },
   ],
 });

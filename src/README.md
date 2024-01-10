@@ -12,12 +12,12 @@ tagline: 蓝图,扩展,MOD,还有更多...
 actions:
   - text: 查看wiki
     icon: list
-    link: ./wikiPage/
+    link: ./zh/wikiPage/
     type: primary
 
   - text: 使用指南
     icon: lightbulb
-    link: ./writeGuide/
+    link: ./zh/writeGuide/
 
 highlights:
   - header: 更多功能
