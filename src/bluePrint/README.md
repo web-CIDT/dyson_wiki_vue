@@ -1,5 +1,5 @@
 ---
-title: 编写指南
+title: 蓝图
 index: false
 icon: laptop-code
 

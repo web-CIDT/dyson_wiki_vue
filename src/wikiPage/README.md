@@ -1,7 +1,7 @@
 ---
-title: 教程合集
+title: Wiki
 index: false
-icon: list
+icon: book
 ---
 一些游戏教程的合集
 

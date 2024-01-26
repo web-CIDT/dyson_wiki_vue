@@ -4,17 +4,17 @@ export const zhSidebar =  sidebar({
   "/": [
     "",
     {
-      text: "教程合集",
-      icon: "list",
+      text: "Wiki",
+      icon: "book",
       prefix: "wikiPage/",
       link: "wikiPage/",
       children: "structure",
     },
     {
-      text: "编写指南",
+      text: "蓝图",
       icon: "laptop-code",
-      prefix: "writeGuide/",
-      link: "writeGuide/",
+      prefix: "bluePrint/",
+      link: "bluePrint/",
       children: "structure",
     },
     {
