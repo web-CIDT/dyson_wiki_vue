@@ -12,7 +12,7 @@ tagline: 蓝图,扩展,MOD,还有更多...
 actions:
   - text: 查看wiki
     icon: list
-    link: ./zh/wikiPage/
+    link: ./wikiPage/
     type: primary
 
   - text: 使用指南
